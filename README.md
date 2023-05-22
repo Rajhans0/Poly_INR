@@ -14,9 +14,9 @@ The libraries are burrowed from the [StyleGAN-XL](https://github.com/autonomousv
 - 64-bit Python 3.8 and PyTorch 1.9.0 (or later)
 - CUDA toolkit 11.1 or later.
 - GCC 7 or later compilers.
-- Use the following commands with Miniconda3 to create and activate your PG Python environment:
-    conda env create -f environment.yml
-    conda activate polyinr
+- Use the following commands with Miniconda3 to create and activate your Python environment:<br>
+    &nbsp;conda env create -f environment.yml<br>
+    &nbsp;conda activate polyinr<br>
 
 # Data Preparation 
   python dataset_tool.py --source=./data/location --dest=./data/dataname_256.zip --resolution=256x256 --transform=center-crop
