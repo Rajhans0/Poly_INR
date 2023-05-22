@@ -34,9 +34,14 @@ python train.py --outdir=./training-runs/dataname --data=./data/dataname_64.zip 
   --superres --path_stem training-runs/dataname/00000-gmgan-dataname_32-gpus8-batch64/best_model.pkl
 
 
-# To generate samples run
-first download the imagenet (256x256) checkpoint from the below link.
-https://drive.google.com/file/d/1aYbsRpOHh0_ruBrRZz03GxQ7EvwVfudK/view?usp=share_link
+# To generate samples run 
 
 python gen_images.py --outdir=out --trunc=0.6 --seeds=1-20 --batch-sz 1 --class 135 --network=path/to/best_model.pkl
+
+# Pretrained checkpoints
+
+[ImageNet-128x128](https://drive.google.com/file/d/18_Y0-Sadyfs0WibgGc29FrX9iDnWyb26/view?usp=share_link)<br>
+[ImageNet-256x256](https://drive.google.com/file/d/1aYbsRpOHh0_ruBrRZz03GxQ7EvwVfudK/view?usp=share_link)<br>
+[ImageNet-512x512](https://drive.google.com/file/d/1GV9qCEplMC8Je1aOL2cYJfoJa0adfqdz/view?usp=share_link)<br>
+
 
