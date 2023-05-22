@@ -1,4 +1,4 @@
-Code for our CVPR'23 paper: "[Polynomial Implicit Neural Representations For Large Diverse Datasets](https://arxiv.org/pdf/2303.11424.pdf)"
+# Code for our CVPR'23 paper: "[Polynomial Implicit Neural Representations For Large Diverse Datasets](https://arxiv.org/pdf/2303.11424.pdf)"
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/polynomial-implicit-neural-representations/image-generation-on-imagenet-128x128)](https://paperswithcode.com/sota/image-generation-on-imagenet-128x128?p=polynomial-implicit-neural-representations)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/polynomial-implicit-neural-representations/image-generation-on-imagenet-256x256)](https://paperswithcode.com/sota/image-generation-on-imagenet-256x256?p=polynomial-implicit-neural-representations)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/polynomial-implicit-neural-representations/image-generation-on-imagenet-512x512)](https://paperswithcode.com/sota/image-generation-on-imagenet-512x512?p=polynomial-implicit-neural-representations)
