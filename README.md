@@ -23,12 +23,12 @@ The libraries are burrowed from the [StyleGAN-XL](https://github.com/autonomousv
 
 
 
-# Training the intial resolutuion
+# Training intial resolutuion
 
 python train.py --outdir=./training-runs/dataname  --data=./data/dataname_32.zip --gpus=4 --batch=64 --mirror=1 --snap 10 --batch-gpu 8 --kimg 10000
 
 
-# Training the super-resolution 
+# Training super-resolution 
 
 python train.py --outdir=./training-runs/dataname --data=./data/dataname_64.zip --gpus=4 --batch=64 --mirror=1 --snap 10 --batch-gpu 8 --kimg 10000 \
   --superres --path_stem training-runs/dataname/00000-gmgan-dataname_32-gpus8-batch64/best_model.pkl
